@@ -1,9 +1,9 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./Components/Layout";
 import Home from "./Pages/Home.js";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import TodoList from "./Pages/ToDoList";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CardProvider from "./Components/UI/Cards/Cardscontext";
 import CheckProvider from "./Components/UI/Cards/CheckContext";
 import Deletecontext from "./Components/UI/Cards/Deletecontext";
